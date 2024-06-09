@@ -17,6 +17,7 @@
 	<properties>
 		<java.version>21</java.version>
 	</properties>
+	<packaging>jar</packaging>
 	<dependencies>
 		<!-- START : 스웨거 라이브러리 3개 -->
 		<!-- <https://mvnrepositoryScom/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui> -->
