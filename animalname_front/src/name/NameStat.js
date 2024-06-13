@@ -113,8 +113,9 @@ const NameStat = () => {
 
   return (
     <>
+      <h2 className="sub-title">이름순위</h2>
       <div className="name-stat-title">
-        <p>멍냥이들의 이름 순위를 확인해보세요.</p>
+        <p>대한민국의 동물이름 순위를 확인해보세요.</p>
       </div>
       <div className="name-stat-wrap">
         <Paper
@@ -129,7 +130,7 @@ const NameStat = () => {
         >
           <InputBase
             sx={{ ml: 1, flex: 1 }}
-            placeholder="멍냥이 이름을 검색해보세요. 🍀"
+            placeholder="멍냥이 이름을 검색해보세요."
             inputProps={{ "aria-label": "멍냥이 이름을 검색해보세요." }}
             id="search-name-place-holder"
             value={searchName}

@@ -23,6 +23,8 @@ public class AnimalnameController {
     @Autowired
     private AnimalnameService animalnameService;
 
+
+
     @GetMapping(value = "/{reqPage}/{searchName}")
     public ResponseEntity<ResponseDTO> selectAnimalname(@PathVariable int reqPage, @PathVariable String searchName) {
         System.out.println(searchName);

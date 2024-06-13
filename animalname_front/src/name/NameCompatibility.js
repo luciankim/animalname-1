@@ -69,6 +69,8 @@ const NameCompatibility = () => {
   console.log("결과요", compatibilityResult);
   return (
     <div className="name-compatibility-wrap">
+      <h2 className="sub-title">이름궁합</h2>
+
       <div className="name-compatibility-title">
         <p>멍냥이와의 궁합을 확인해보세요.</p>
       </div>
@@ -84,7 +86,7 @@ const NameCompatibility = () => {
         >
           <InputBase
             sx={{ ml: 1, flex: 1 }}
-            placeholder="이름 🍀"
+            placeholder="이름"
             inputProps={{ "aria-label": "이름", maxLength: 6 }}
             id="search-name"
             value={name1}
@@ -103,7 +105,7 @@ const NameCompatibility = () => {
         >
           <InputBase
             sx={{ ml: 1, flex: 1 }}
-            placeholder="이름 🍀"
+            placeholder="이름"
             inputProps={{ "aria-label": "이름", maxLength: 6 }}
             id="search-name"
             value={name2}
@@ -146,11 +148,12 @@ const NameCompatibility = () => {
       <div>
         <RWebShare
           data={{
+            title: "궁합점수",
             text:
               "궁합점수는 " +
               `${compatibilityResult.compatibilityScore}` +
               "점입니다.",
-            url: "https://www.animalname.co.kr",
+            url: "https://petname.site",
             title: "한국 동물이름 순위",
           }}
           onClick={() => console.log("shared successfully!")}

@@ -10,3 +10,7 @@ npm install @mui/icons-material
 2024-06-02
 npm install apexcharts --save
 npm i react-web-share
+
+2024-06-13
+npm install --save-dev @babel/node
+npm install prettier --save-dev

@@ -123,3 +123,8 @@ form {
 .main-wrap p {
   color: rgb(182, 182, 182);
 }
+
+.sub-title {
+  text-align: center;
+  margin-bottom: 10px;
+}

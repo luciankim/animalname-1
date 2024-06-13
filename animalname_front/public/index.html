@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -10,17 +10,42 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <meta property="og:url" content="https://www.petname.site" />
+    <meta property="og:title" content="멍냥이름" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="%PUBLIC_URL%/dog28.png" />
+    <meta property="og:description" content="대한민국 동물이름 순위정보" />
+    <!-- 네이버 서치어드바이저 -->
+    <meta
+      name="naver-site-verification"
+      content="792f3d4cb1312c720bf71a8fee0ec002f472a883"
+    />
+
+    <!-- 구글 서치 콘솔 -->
+    <meta
+      name="google-site-verification"
+      content="-UcMMBk01X1nU2H8W_kr2OT5Xp2pTQnjC1MwGpO2TjU"
+    />
+
+    <!-- Bing 웹 마스터 -->
+    <meta name="msvalidate.01" content="03D5043BDB0BD1738E588F2430A25F0C" />
 
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2037503297535860"
+      crossorigin="anonymous"
+    ></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -30,7 +55,21 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F9W0GD0J45"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-F9W0GD0J45");
+    </script>
+    <title>멍냥이름</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

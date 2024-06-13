@@ -10,7 +10,7 @@ const Header = () => {
       <div className="header-wrap">
         <div className="header-content">
           <Link to="/" className="main-logo">
-            <span>🐶 멍냥이름</span>
+            <h1>🐶 멍냥이름</h1>
           </Link>
         </div>
         <div className="header-menu">
@@ -18,13 +18,13 @@ const Header = () => {
             <li onClick={scrollUp}>
               <Link to="/name-stat">
                 <span className="material-icons">assessment</span>
-                <p>통계</p>
+                <p>랭킹</p>
               </Link>
             </li>
             <li>
               <Link to="/name-compatibility">
                 <span className="material-icons">join_inner</span>
-                <p>궁합</p>
+                <p>이름궁합</p>
               </Link>
             </li>
           </ul>
